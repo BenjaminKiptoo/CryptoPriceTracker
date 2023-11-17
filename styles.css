@@ -7,7 +7,8 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-image: url(images/crpto2.webp);
+    /* background-image: url(images/crpto2.webp); */
+    background-color: rgb(70, 66, 66);
     background-position: center;
     background-size: cover;
     padding: 0 7%;
@@ -33,7 +34,7 @@ nav ul li{
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 nav .btn{
     color: #fff;
@@ -64,4 +65,30 @@ nav .btn{
     text-decoration: none;
     padding: 15px 30px;
     border-radius: 30px;
+}
+.coin-list{
+    position: absolute;
+    right: 10%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: #ff960b;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+.coin img{
+    width: 50px;
+    margin-right: 10px;
+
+}
+.coin h3{
+    color: #fff;
+    margin-bottom: 5px;
 }
